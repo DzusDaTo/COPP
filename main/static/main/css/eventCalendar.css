@@ -64,13 +64,14 @@
 	float: left;
 	width: 14.28%;
 	height: 20px;
+	font-size:24px;
 }
 
 .eventCalendar-daysList a {
-	padding: 0;
+	padding: 30px;
 	display: block;
 	text-align: center;
-	font-size: 8px;
+	font-size: 30px;
 	min-width: 7px;
 }
 
@@ -92,6 +93,6 @@
 
 .eventCalendar-subtitle {
 	padding-left: 0px;
-	font-size: 120%;
+	font-size: 150%;
 }
 /* end of core CSS */
