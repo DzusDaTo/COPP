@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="{% static 'main/css/calendar.css' %}">
 </head>
 <body>
-    <h1>Календарь событий</h1>
+    <div>
+        <h1>Календарь событий</h1>
+        {% for el in main %}
+            <div>
+                <h3>{{ el.title }}</h3>
+                <p>{{ el.anons }}</p>
+            </div>
+        {% endfor %}
+    </div>
 </body>
 </html>

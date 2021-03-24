@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .models import Articles
 
 
 def home(request):
@@ -18,4 +19,5 @@ def account(request):
 
 
 def calendar(request):
-     return render(request, 'main/calendar.html')
+     main = Articles.objects.order_by('date')
+     return render(request, 'main/calendar.html', {'main': main})
