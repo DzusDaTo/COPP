@@ -10,12 +10,16 @@
     <link rel="stylesheet" href="{% static 'main/css/calendar.css' %}">
 </head>
 <body>
+    <div class="main">
+        <a href="{% url 'home' %}"><button class="main_button" >Главная</button></a>
+    </div>
     <div>
-        <h1>Календарь событий</h1>
+        <h1 style="text-align:center;">Календарь событий</h1>
         {% for el in main %}
-            <div>
+            <div class="cloud">
                 <h3>{{ el.title }}</h3>
                 <p>{{ el.anons }}</p>
+                <a href="#" style="display: block;color: #178DB1;cursor: pointer;text-decoration: underline;margin-top:180px;margin-left:87%;width:120px;position:relative;">Развернуть текст</a>
             </div>
         {% endfor %}
     </div>

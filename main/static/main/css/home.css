@@ -1,6 +1,7 @@
 body{
-	background: linear-gradient(#9f9cff, #9cffb6) fixed;
+	background: linear-gradient(#9f9cff, #5D2680) fixed;
 	width: 99%;
+	font-family:Century Gothic;
 
 }
 .header{
@@ -91,9 +92,9 @@ body{
 }
 .happy_test{
 	position: relative;
-	width: 40%;
+	width: 30%;
 	margin-right: 5%;
-	margin-left: 5%;
+	margin-left: 15%;
 	text-align: center;
 	margin-top: 5%;
 	height: 700px;
@@ -101,8 +102,8 @@ body{
 }
 .realy_test{
     position: relative;
-	width: 40%;
-	margin-right: 5%;
+	width: 30%;
+	margin-right: 15%;
 	margin-left: 5%;
 	text-align: center;
 	margin-top: 5%;
@@ -111,7 +112,7 @@ body{
 }
 .start_game{
 	border-radius: 4px;
-	background-color:  #9f9cff;
+	background-color:  #9cffb6;
 	opacity: 0.7;
 	outline: none;
 	border: 0;
@@ -121,16 +122,16 @@ body{
 	margin-top: 70%;
 }
 .start_game:hover{
-	background: #b3ffc7;
+	background: #9f9cff;
 	transition-timing-function: ease-in;
 	transition: 0.5s;
 	cursor: pointer;
 }
 .calendar{
 	position: relative;
-	width: 90%;
-	margin-right: 5%;
-	margin-left: 5%;
+	width: 72%;
+	margin-right: 14%;
+	margin-left: 14%;
 	text-align: center;
 	margin-top: 5%;
 	height: 700px;
